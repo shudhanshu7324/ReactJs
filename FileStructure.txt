@@ -1,0 +1,16 @@
+            React
+              |
+              |
+             / \
+            /   \
+(websites)ReactDom    ReactNative (for mobile apps)
+
+index.html --> empty div with id root
+
+index.js // entry point of javascript app
+
+React has its own virtual dom ReactDom which have method createRoot
+
+app.js which is a function returning some html
+
+react scripts helps to connect index.html with index.js because there is no script linking in index.html page.
