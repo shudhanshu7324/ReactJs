@@ -1,0 +1,15 @@
+// important for interview
+
+createRoot working behind the scene
+
+It create a dom it compares the its own dom and ours dom and update the only those things which is changed----> but the browser update the whole page which is called page reloading.
+
+
+ReactFiber is an ongoing reimplementation of virtual dom.
+
+
+Reconciliation
+the algorithm React uses to different one tree with another to  determine which part to be changed.
+
+Reconciliation is the algorithm behind what is popularly understood as the virtual dom.
+
