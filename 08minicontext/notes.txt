@@ -1,0 +1,32 @@
+context api is not just a built in feature of react which is used for statemanagement
+and redux is also a tool for state management but is is external library it is used in heavy application while context api is used in lighter application.
+
+handle context api
+
+context api means global object
+Step-1 create a folder with name context
+
+
+
+
+
+creating a user context in 
+
+PART-1 of creating context
+step1 import react from react
+step2 CONST usercontext = React.createcontext();
+step3 export default usercontext
+
+PART-2 context provide a Provider
+when we wrap some component with a usercontext it becomes a Provider
+<UserContext>
+    <Login/>
+    <Card>
+        <Data/>
+    <Card/>
+<UserContext/>
+
+create a file usercontextprovider
+
+
+PART-3 import UserContextProvider in App.jsx and wrap it with it
